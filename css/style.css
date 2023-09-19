@@ -43,13 +43,14 @@ nav.mobile-menu{
 	background-size: 100% 100%;
 }
 
+/*
 nav.mobile-menu:hover ul{
 	opacity: 1;
 }
+*/
 
 nav.mobile-menu ul{
-	opacity: 0;
-	transition: 1s;
+	display: none;
 	background-color: white;
 	position: absolute;
 	width: 100%;
@@ -60,7 +61,6 @@ nav.mobile-menu ul{
 
 nav.mobile-menu ul li{
 	padding: 8px 0;
-	transition: 0.4s;
 	border-bottom: 1px solid black;
 	text-align: center;
 }
